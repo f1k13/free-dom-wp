@@ -27,7 +27,7 @@
                             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
                             massa
                             quis enim. Donec pede justo, fringilla vel</p>
-                        <button class="card-button">Оставить заявку</button>
+                        <button class="card-button"><a class="card-button-link" href="<?php echo get_site_url() ?>/services/">Оставить заявку</a></button>
                     </div>
                     <div id="slide_1" class="card__slider">
                         <img data-slide="#slide_1" class="slider-img-arrow controlls prev" src="<?php bloginfo('template_url'); ?>/assets/images/arrow.svg" alt="">
@@ -48,7 +48,7 @@
                             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
                             massa
                             quis enim. Donec pede justo, fringilla vel</p>
-                        <button class="card-button">Оставить заявку</button>
+                        <button class="card-button"><a class="card-button-link" href="<?php echo get_site_url() ?>/services/">Оставить заявку</a></button>
                     </div>
                     <div id="slide_2" class="card__slider">
                         <img data-slide="#slide_2" class="slider-img-arrow controlls prev"  src="<?php bloginfo('template_url'); ?>/assets/images/arrow.svg" alt="">
@@ -69,7 +69,7 @@
                             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
                             massa
                             quis enim. Donec pede justo, fringilla vel</p>
-                        <button class="card-button">Оставить заявку</button>
+                        <button class="card-button"><a class="card-button-link" href="<?php echo get_site_url() ?>/services/">Оставить заявку</a></button>
                     </div>
                     <div id="slide_3" class="card__slider">
                         <img data-slide="#slide_3" class="slider-img-arrow controlls prev " src="<?php bloginfo('template_url'); ?>/assets/images/arrow.svg" alt="">

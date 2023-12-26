@@ -114,16 +114,19 @@
   flex-shrink: 0;
   border-radius: 12px;
   background: #155ab7;
+
+  border: none;
+  margin-top: 52px;
+}
+.card-button-link {
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 14px;
   letter-spacing: -0.14px;
-  border: none;
-  margin-top: 52px;
+  text-decoration: none;
 }
-
 .card__slider {
   width: 617px;
   position: relative;

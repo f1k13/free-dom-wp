@@ -142,7 +142,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/roofing.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/roofing/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -151,7 +151,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/roofing.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/roofing/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -160,8 +160,8 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/roofing.html">Заказать услугу</a>
-                  </button>
+                    <a href="<?php echo get_site_url() ?>/roofing/">Заказать услугу</a>
+                  </button>>
                 </div>
               </li>
               <li class="tab-item">
@@ -169,7 +169,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/roofing.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/roofing/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -178,7 +178,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/roofing.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/roofing/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -192,7 +192,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/facade.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/fasade/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -201,7 +201,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/facade.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/fasade/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -210,7 +210,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/facade.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/fasade/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -219,7 +219,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="services/facade.html">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/fasade/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -261,7 +261,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/networks/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -270,7 +270,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/networks/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -279,7 +279,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/networks/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -293,7 +293,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/rise/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -302,7 +302,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/rise/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -311,7 +311,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/rise/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -325,7 +325,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/bulding/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -334,7 +334,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/bulding/">Заказать услугу</a>
                   </button>
                 </div>
               </li>
@@ -343,7 +343,7 @@
                 <div class="tab-end">
                   <span class="tab-item-price">1 500 ₽</span>
                   <button class="tab-item-button">
-                    <a href="fasade/">Заказать услугу</a>
+                    <a href="<?php echo get_site_url() ?>/bulding/">Заказать услугу</a>
                   </button>
                 </div>
               </li>

@@ -1,9 +1,22 @@
+<?php
+  // Template Name: finishing 
+?>
 
 <?php get_header(); ?>
-<section class="section header__main">
+<main>
+  <section class="section">
+        <div class="container path__wrapper">
+            <ul class="path__list">
+                <li class="path__list-item">Главная</li>
+                <li class="path__list-item">Наши услуги</li>
+                <li class="path__list-item">Отделка и ремонт помещений</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section header__main">
         <div class="container header__content-wrapper">
             <div class="header__content-left">
-                <h2 class="header__content-title">Ремонтно-строительные работы в Коми</h2>
+                <h2 class="header__content-title">Отделка и ремонт помещений</h2>
                 <p class="header__content-subtitle">Локальный и капитальный ремонт для организаций и частных <br> лиц.
                     Работаем с ТСЖ, ЖСК, ТСН, УК, 44-ФЗ,
                     223-ФЗ. <br>
@@ -12,16 +25,16 @@
             </div>
             <div class="slider_wrapper">
                 <div class="myslide">
-                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images/img-header.jpg" alt="1"></div>
+                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images//img-header.jpg" alt="1"></div>
                 </div>
                 <div class="myslide">
-                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images/img-slider-1.jpg" alt="8"></div>
+                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images//img-slider-1.jpg" alt="8"></div>
                 </div>
                 <div class="myslide">
-                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images/img-slider-2.jpg" alt="sl"></div>
+                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images//img-slider-2.jpg" alt="sl"></div>
                 </div>
                 <div class="myslide">
-                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images/img-slider-3.jpg" alt="sl"></div>
+                    <div class="slider_item "><img class="img-slider" src="<?php bloginfo('template_url'); ?>/assets/images//img-slider-3.jpg" alt="sl"></div>
                 </div>
             </div>
         </div>
@@ -59,54 +72,61 @@
     </div>
     <div class="modal__finish">
         <div class="modal__finish-content">
-            <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images/check-circle.svg" alt="">
+            <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images//check-circle.svg" alt="">
             <span class="modal__finish-content-text">Ваша заявка отправлена! <br>
         Мы свяжемся с вами в ближайшее время</span>
         </div>
     </div>
-<main>
     <section class="section">
-        <div class="container services__wrapper">
-            <h2 class="services__title">Наши услуги</h2>
-            <div class="services__cards">
-                <a href="<?php echo get_site_url() ?>/roofing/" class="service__card">
-                    <h3 class="service__card-title">Кровельные работы</h3>
-                    <p class="service__card-price">от 500 ₽ /м2 </p>
-                    <img class="service-card-img" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-1.png" alt="">
-                </a>
-                <a href="<?php echo get_site_url() ?>/fasade/" class="service__card">
-                    <h3 class="service__card-title">Фасадные работы</h3>
-                    <p class="service__card-price">от 900 ₽ /м2 </p>
-                    <img class="service-card-img" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-1.png" alt="">
-                </a>
-                <a href="<?php echo get_site_url() ?>/finishing/"  class="service__card">
-                    <h3 class="service__card-title">Отделка и ремонт помещений</h3>
-                    <p class="service__card-price">от 5000 ₽ </p>
-                    <img class="service-card-img img-3" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-3.png" alt="">
-                </a>
-                <a href="<?php echo get_site_url() ?>/dismantling/"  class="service__card">
-                    <h3 class="service__card-title">Демонтаж</h3>
-                    <p class="service__card-price">от 5000 ₽ </p>
-                    <img class="service-card-img img-4" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-4.png" alt="">
-                </a>
+        <div class="container main-services__wrapper">
+            <h2 class="services__title">Виды услуг</h2>
+            <div class="main__services-cards">
+                <div class="main__services-card">
+                    <div  class="main__services-card-left">
+                        <h3  class="main__services-card-title">Отделка и ремонт помещений</h3>
+                        <p class="main-services__card-price">от 5000 ₽</p>
+                        <div class="main__services-card-description">
+                            <span class="main__services-card-text ">Описание Описание</span>
+                            <span class="main__services-card-text">Описание Описание</span>
+                            <span class="main__services-card-text">Описание Описание</span>
+                        </div>
+                        <button data-service="Отделка и ремонт помещений" class="main__services-card-button">Заказать</button>
+                    </div>
+                    <img class="main__services-card-img" src="<?php bloginfo('template_url'); ?>/assets/images//roofing-img-1.png" alt="">
+                </div>
             </div>
-            <div class="services__cards">
-                <a href="<?php echo get_site_url() ?>/networks/" class="service__card">
-                    <h3 class="service__card-title">Инженерные сети</h3>
-                    <p class="service__card-price">от 3500 ₽ </p>
-                    <img class="service-card-img img-5" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-5.png" alt="">
-                </a>
-                <a href="<?php echo get_site_url() ?>/rise/" class="service__card">
-                    <h3 class="service__card-title">Высотные работы</h3>
-                    <p class="service__card-price">от 7500 ₽ </p>
-                    <img class="service-card-img img-6" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-6.png" alt="">
-                </a>
-                <a href="<?php echo get_site_url() ?>/bulding/" class="service__card card-7">
-                    <h3 class="service__card-title">Обслуживание зданий
-                        и территорий</h3>
-                    <p class="service__card-price">от 6000 ₽</p>
-                    <img class="service-card-img img-7" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-7.png" alt="">
-                </a>
+            <div class="modal__seller">
+                <div class="modal__content-seller">
+                    <h3 class="modal-title">Оставить заявку</h3>
+                    <form class="modal__form" action="">
+                        <div class="form__input">
+                            <label class="input-label-seller" for="name">Имя</label>
+                            <input class="input" id="name" type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__input">
+                            <label class="input-label-seller" for="telephone1">Телефон</label>
+                            <input class="input" id="telephone1" type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__input">
+                            <p class="input-label-seller">Услуга</p>
+                            <div class="input">
+                                <p class="input-text"></p>
+                            </div>
+                        </div>
+                        <button type="submit" class="modal-button-seller">Отправить</button>
+                    </form>
+                    <div class="modal__personal">
+                        <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на обработку</p>
+                        <span class="personal-text blue">персональных данных</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__seller-finish">
+                <div class="modal__finish-content-seller">
+                    <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images//check-circle.svg" alt="">
+                    <span class="modal__finish-content-text">Ваша заявка отправлена! <br>
+        Мы свяжемся с вами в ближайшее время</span>
+                </div>
             </div>
         </div>
     </section>
@@ -123,22 +143,22 @@
             <div class="about__right">
                 <div class="right-cards">
                     <div class="right__card">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/figure.svg" alt="">
-                        <img class='card-check' src="<?php bloginfo('template_url'); ?>/assets/images/check.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images//figure.svg" alt="">
+                        <img class='card-check' src="<?php bloginfo('template_url'); ?>/assets/images//check.svg" alt="">
                         <p class="card-text">Гарантия на работы до 5 лет</p>
                     </div>
                     <div class="right__card">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/like.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images//like.svg" alt="">
                         <p class="card-text">7 лет на рынке подрядных услуг</p>
                     </div>
                 </div>
                 <div class="right-cards">
                     <div class="right__card">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/people-check.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images//people-check.svg" alt="">
                         <p class="card-text text-width">Более 200 постоянных заказчиков</p>
                     </div>
                     <div class="right__card">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/houses.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images//houses.svg" alt="">
                         <p class="card-text text-width">Более 500 выполненных работ</p>
                     </div>
                 </div>
@@ -155,7 +175,7 @@
                 <div class="works__card">
                     <h3 class="works__card-title">Заявка</h3>
                     <p class="works__card-subtitle">Вы оставляете заявку на услугу любым способом</p>
-                    <button class="works__card-button"><a href="<?php echo get_site_url() ?>/services/">Оставить заявку</a></button>
+                    <button class="works__card-button"><a href="service.html">Оставить заявку</a></button>
                     <div class="works__cards-circle mb">
                         <span class="circle-text">1</span>
                     </div>
@@ -187,7 +207,7 @@
                     <p class="works__card-subtitle">Мы выполняем и сдаем работы, подписываем акты и несем гарантийные
                         обязательства</p>
                     <div class="works__cards-circle">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/check.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images//check.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -195,4 +215,4 @@
     </section>
 </main>
 
-<?php get_footer();?>
+<?php get_footer(); ?>
