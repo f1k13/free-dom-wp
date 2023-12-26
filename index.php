@@ -69,39 +69,39 @@
         <div class="container services__wrapper">
             <h2 class="services__title">Наши услуги</h2>
             <div class="services__cards">
-                <a href="roofing/" class="service__card">
+                <a href="<?php echo get_site_url() ?>/roofing/" class="service__card">
                     <h3 class="service__card-title">Кровельные работы</h3>
                     <p class="service__card-price">от 500 ₽ /м2 </p>
                     <img class="service-card-img" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-1.png" alt="">
                 </a>
-                <a href="fasade/" class="service__card">
+                <a href="<?php echo get_site_url() ?>/fasade/" class="service__card">
                     <h3 class="service__card-title">Фасадные работы</h3>
                     <p class="service__card-price">от 900 ₽ /м2 </p>
                     <img class="service-card-img" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-1.png" alt="">
                 </a>
-                <a  class="service__card">
+                <a href="<?php echo get_site_url() ?>/services/"  class="service__card">
                     <h3 class="service__card-title">Отделка и ремонт помещений</h3>
                     <p class="service__card-price">от 5000 ₽ </p>
                     <img class="service-card-img img-3" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-3.png" alt="">
                 </a>
-                <div class="service__card">
+                <a href="<?php echo get_site_url() ?>/services/" class="service__card">
                     <h3 class="service__card-title">Демонтаж</h3>
                     <p class="service__card-price">от 5000 ₽ </p>
                     <img class="service-card-img img-4" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-4.png" alt="">
-                </div>
+                </a>
             </div>
             <div class="services__cards">
-                <a href="networks/" class="service__card">
+                <a href="<?php echo get_site_url() ?>/networks/" class="service__card">
                     <h3 class="service__card-title">Инженерные сети</h3>
                     <p class="service__card-price">от 3500 ₽ </p>
                     <img class="service-card-img img-5" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-5.png" alt="">
                 </a>
-                <a href="/rise" class="service__card">
+                <a href="<?php echo get_site_url() ?>/rise/" class="service__card">
                     <h3 class="service__card-title">Высотные работы</h3>
                     <p class="service__card-price">от 7500 ₽ </p>
                     <img class="service-card-img img-6" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-6.png" alt="">
                 </a>
-                <a href="bulding/" class="service__card card-7">
+                <a href="<?php echo get_site_url() ?>/bulding/" class="service__card card-7">
                     <h3 class="service__card-title">Обслуживание зданий
                         и территорий</h3>
                     <p class="service__card-price">от 6000 ₽</p>
@@ -155,7 +155,7 @@
                 <div class="works__card">
                     <h3 class="works__card-title">Заявка</h3>
                     <p class="works__card-subtitle">Вы оставляете заявку на услугу любым способом</p>
-                    <button class="works__card-button"><a href="/service">Оставить заявку</a></button>
+                    <button class="works__card-button"><a href="<?php echo get_site_url() ?>/services/">Оставить заявку</a></button>
                     <div class="works__cards-circle mb">
                         <span class="circle-text">1</span>
                     </div>

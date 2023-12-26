@@ -5,25 +5,25 @@
                 <li class="list-title">
                     <a href="/services" class="list-title-item-link">Наши услуги</a>
                     <ul class="item__list">
-                        <li><a class="list-item-link" href="/roofing">Кровельные работы</a></li>
-                        <li><a class="list-item-link" href="/fasade">Фасадные работы</a></li>
-                        <li><a class="list-item-link" href="">Отделка и ремонт помещений</a></li>
-                        <li><a class="list-item-link" href="">Демонтаж</a></li>
-                        <li><a class="list-item-link" href="/networks">Сети</a></li>
-                        <li><a class="list-item-link" href="/rise">Высотные работы</a></li>
-                        <li><a class="list-item-link" href="/building">Обслуживание зданий и территорий</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/roofing">Кровельные работы</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/fasade">Фасадные работы</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/services/">Отделка и ремонт помещений</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/services/">Демонтаж</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/networks">Сети</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/rise">Высотные работы</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/building">Обслуживание зданий и территорий</a></li>
                     </ul>
                 </li>
-                <li class="list-title"><a class="list-title-item-link" href="/partner">Сотрудничество</a>
+                <li class="list-title"><a class="list-title-item-link" href="<?php echo get_site_url() ?>/partner">Сотрудничество</a>
                     <ul class="item__list">
-                        <li><a class="list-item-link" href="/partner">Поставщикам</a></li>
-                        <li><a class="list-item-link" href="/partner">Подрядчикам</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/partner">Поставщикам</a></li>
+                        <li><a class="list-item-link" href="<?php echo get_site_url() ?>/partner">Подрядчикам</a></li>
                     </ul>
                 </li>
-                <li class="list-title"><a class="list-title-item-link" href="/works">Наши работы</a></li>
-                <li class="list-title"><a class="list-title-item-link" href="/vacancies">Вакансии</a></li>
-                <li class="list-title"><a class="list-title-item-link" href="/about">О нас</a></li>
-                <li class="list-title"><a class="list-title-item-link" href="/contacts">Контакты</a></li>
+                <li class="list-title"><a class="list-title-item-link" href="<?php echo get_site_url() ?>/works">Наши работы</a></li>
+                <li class="list-title"><a class="list-title-item-link" href="<?php echo get_site_url() ?>/vacancies">Вакансии</a></li>
+                <li class="list-title"><a class="list-title-item-link" href="<?php echo get_site_url() ?>/about">О нас</a></li>
+                <li class="list-title"><a class="list-title-item-link" href="<?php echo get_site_url() ?>/contacts">Контакты</a></li>
             </ul>
             <div class="footer__private">
                 <div class="private__text-politic">
