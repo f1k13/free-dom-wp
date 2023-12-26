@@ -17,7 +17,7 @@
         <div class="container works__wrapper">
             <h2 class="title">Наши работы</h2>
             <div class="works__cards-sliders">
-                <div class="works__card-sliders">
+                <div class="works__card-slider">
                     <div class="card__content">
                         <h3 class="card-title">Ремонт кровли</h3>
                         <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -38,7 +38,7 @@
                         <img data-slide="#slide_1" class="slider-img-arrow-right next controlls" src="<?php bloginfo('template_url'); ?>/assets/images/arrow.svg" alt="">
                     </div>
                 </div>
-                <div class="works__card-sliders">
+                <div class="works__card-slider">
                     <div class="card__content">
                         <h3 class="card-title">Ремонт кровли</h3>
                         <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -59,7 +59,7 @@
                         <img data-slide="#slide_2" class="slider-img-arrow-right next controlls" src="<?php bloginfo('template_url'); ?>/assets/images/arrow.svg" alt="">
                     </div>
                 </div>
-                <div class="works__card-sliders">
+                <div class="works__card-slider">
                     <div class="card__content">
                         <h3 class="card-title">Ремонт кровли</h3>
                         <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

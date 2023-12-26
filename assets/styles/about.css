@@ -1,64 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .section {
-    max-width: 1920px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding: 0 200px;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 200px;
 }
 
-
 .container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .path__list-item:nth-child(2)::before {
-    content: '';
-    background-color:#BCC3D2;
-    width: 4px;
-    height: 4px;
-    margin-right: 8px;
-    border-radius: 2px;
+  content: "";
+  background-color: #bcc3d2;
+  width: 4px;
+  height: 4px;
+  margin-right: 8px;
+  border-radius: 2px;
 }
-.title{
-    color: #2A2A30;
-    margin-top: 32px;
-    font-size: 37.344px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 48px;
-    letter-spacing: -0.6px;
+.title {
+  color: #2a2a30;
+  margin-top: 32px;
+  font-size: 37.344px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.6px;
 }
-.about-title{
-    color: #2A2A30;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    margin-top: 48px;
-    width: 100%;
+.about-title {
+  color: #2a2a30;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 48px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
-    .section {
-        padding: 0 20px;
-    }
-    .path__wrapper{
-        display: none !important;
-    }
-    .title{
-        font-size: 23px;
-        text-align: center;
-    }
-
+  .section {
+    padding: 0 20px;
+  }
+  .path__wrapper {
+    display: none !important;
+  }
+  .title {
+    font-size: 23px;
+    text-align: center;
+  }
 }

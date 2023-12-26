@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 <section class="section header__main">
         <div class="container header__content-wrapper">
@@ -100,7 +101,7 @@
                     <p class="service__card-price">от 7500 ₽ </p>
                     <img class="service-card-img img-6" src="<?php bloginfo('template_url'); ?>/assets/images/card-img-6.png" alt="">
                 </a>
-                <a href="building/" class="service__card card-7">
+                <a href="bulding/" class="service__card card-7">
                     <h3 class="service__card-title">Обслуживание зданий
                         и территорий</h3>
                     <p class="service__card-price">от 6000 ₽</p>
@@ -154,7 +155,7 @@
                 <div class="works__card">
                     <h3 class="works__card-title">Заявка</h3>
                     <p class="works__card-subtitle">Вы оставляете заявку на услугу любым способом</p>
-                    <button class="works__card-button"><a href="service.html">Оставить заявку</a></button>
+                    <button class="works__card-button"><a href="/service">Оставить заявку</a></button>
                     <div class="works__cards-circle mb">
                         <span class="circle-text">1</span>
                     </div>

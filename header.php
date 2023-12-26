@@ -12,7 +12,7 @@
         <div class="container header__wrapper">
             <div class="header__nav">
                 <div class="nav__burger">
-                    <a href="../pages/index.html" class="header__logo">
+                    <a href="/" class="header__logo">
                         <h1 class="logo-title">Фридом</h1>
                         <p class="logo-subtitle">строительная компания</p>
                     </a>
@@ -25,16 +25,16 @@
                 <div class="header__navbar">
                     <nav class='navbar'>
                         <ul class="navbar__list">
-                            <li class="list-item"><a class="list-item-link-nav" href="service/">Наши услуги</a>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/services/"">Наши услуги</a>
                             </li>
-                            <li class="list-item"><a class="list-item-link-nav" href="works/">Наши работы</a>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/works/"">Наши работы</a>
                             </li>
-                            <li class="list-item"><a class="list-item-link-nav" href="partner/">Партнерам</a>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/partner/"">Партнерам</a>
                             </li>
-                            <li class="list-item"><a class="list-item-link-nav" href="vacancies/">Вакансии</a>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/vacancies/"">Вакансии</a>
                             </li>
-                            <li class="list-item"><a class="list-item-link-nav" href="about/">О нас</a></li>
-                            <li class="list-item"><a class="list-item-link-nav" href="contacts/">Контакты</a>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/about/">О нас</a></li>
+                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/contacts/"">Контакты</a>
                             </li>
                         </ul>
                     </nav>

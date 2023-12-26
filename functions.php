@@ -8,9 +8,10 @@ function theme_name_scripts() {
     wp_enqueue_style( 'Vacancies', get_template_directory_uri() . '/assets/styles/vacancies.css' );
     wp_enqueue_style( 'Partner', get_template_directory_uri() . '/assets/styles/partner.css' );
     wp_enqueue_style( 'Works', get_template_directory_uri() . '/assets/styles/works.css' );
-    wp_enqueue_style( 'Services', get_template_directory_uri() . '/assets/styles/service.css' );
-    wp_enqueue_style( 'Service', get_template_directory_uri() . '/assets/pages/services/service.css' );
-
+    wp_enqueue_style( 'Services', get_template_directory_uri() . '/assets/styles/services.css' );
+    wp_enqueue_style( 'Service', get_template_directory_uri() . '/assets/styles/service.css' );
+    
+    wp_enqueue_style( 'Contacts', get_template_directory_uri() . '/assets/styles/contacts.css' );
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/styles/footer.css' );
     
     wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/scripts/script.js', array(), 'null', true );

@@ -9,14 +9,14 @@
             <ul class="path__list">
                 <li class="path__list-item">Главная</li>
                 <li class="path__list-item">Наши услуги</li>
-                <li class="path__list-item">Кровельные работы</li>
+                <li class="path__list-item">Высотные работы</li>
             </ul>
         </div>
     </section>
     <section class="section header__main">
         <div class="container header__content-wrapper">
             <div class="header__content-left">
-                <h2 class="header__content-title">Кровельные работы</h2>
+                <h2 class="header__content-title">Высотные работы</h2>
                 <p class="header__content-subtitle">Локальный и капитальный ремонт для организаций и частных <br> лиц.
                     Работаем с ТСЖ, ЖСК, ТСН, УК, 44-ФЗ,
                     223-ФЗ. <br>

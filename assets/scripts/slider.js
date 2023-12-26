@@ -12,8 +12,10 @@ function showSlides(n) {
 
   for (let slide of slides) {
     slide.style.display = "none";
+    slide.style.opacity = "0.3";
   }
   slides[slideIndex - 1].style.display = "flex";
+  slides[slideIndex - 1].style.opacity = "1";
 }
 let timer = 0;
 makeTimer();
@@ -22,7 +24,7 @@ function makeTimer() {
   timer = setInterval(function () {
     slideIndex++;
     showSlides(slideIndex);
-  }, 3000);
+  }, 7000);
 }
 
 let seconds = 5;
