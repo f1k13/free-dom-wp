@@ -201,7 +201,7 @@
                 <div class="works__card">
                     <h3 class="works__card-title">Заявка</h3>
                     <p class="works__card-subtitle">Вы оставляете заявку на услугу любым способом</p>
-                    <button class="works__card-button"><a href="service.html">Оставить заявку</a></button>
+                    <button class="works__card-button"><a href="/">Оставить заявку</a></button>
                     <div class="works__cards-circle mb">
                         <span class="circle-text">1</span>
                     </div>

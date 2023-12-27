@@ -17,7 +17,7 @@ controlls.forEach((item) => {
     if (slider) {
       const images = slider.querySelectorAll(".slider-img");
       const currentIndex = Array.from(images).findIndex((image) =>
-        image.classList.contains("active"),
+        image.classList.contains("active")
       );
 
       if (e.target.classList.contains("prev")) {
@@ -40,4 +40,33 @@ controlls.forEach((item) => {
 sliders.forEach((slider) => {
   const images = slider.querySelectorAll(".slider-img");
   show(slider, 0);
+});
+
+const sliderModalButtonOpen = document.querySelectorAll(".card-button");
+const modalSliders = document.querySelector(".modal__seller-slider");
+const modalSlidersFinish = document.querySelector(
+  ".modal__seller-finish-slider"
+);
+sliderModalButtonOpen.forEach((item) => {
+  item.addEventListener("click", () => {
+    console.log(item);
+    modalSliders.classList.add("visible");
+  });
+});
+
+modalSliders.addEventListener("click", (event) => {
+  if (event.target === modalSliders) {
+    modalSliders.classList.remove("visible");
+  }
+});
+document
+  .querySelector(".modal-button-seller")
+  .addEventListener("click", (e) => {
+    e.preventDefault();
+    modalSlidersFinish.classList.add("visible");
+  });
+modalSlidersFinish.addEventListener("click", (e) => {
+  if (e.target === modalSlidersFinish) {
+    modalSlidersFinish.classList.remove("visible");
+  }
 });

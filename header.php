@@ -25,8 +25,19 @@
                 <div class="header__navbar">
                     <nav class='navbar'>
                         <ul class="navbar__list">
-                            <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/services/"">Наши услуги</a>
+                            <div class="list__wrapper">
+                                <li class="list-item__wrapper"><p class="list-item-link-nav">Наши услуги</p>
+                            <ul class="list-item__sublist">
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/roofing/">Кровельные работы</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/fasade/">Фасадные работы</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/finishing/">Отделка и ремонт помещений</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/dismantling/">Демонтаж</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/netwotks/">Инжереные сети</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/rise/">Высотные работы</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/bulding/">Обслуживание зданий и территорий</a></li>
+                            </ul>
                             </li>
+                            </div>
                             <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/works/"">Наши работы</a>
                             </li>
                             <li class="list-item"><a class="list-item-link-nav" href="<?php echo get_site_url() ?>/partner/"">Партнерам</a>

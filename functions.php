@@ -21,6 +21,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'works', get_template_directory_uri() . '/assets/scripts/works.js', array(), 'null', true );
     wp_enqueue_script( 'services', get_template_directory_uri() . '/assets/scripts/service.js', array(), 'null', true );
     wp_enqueue_script( 'seller', get_template_directory_uri() . '/assets/scripts/seller.js', array(), 'null', true );
+    wp_enqueue_script( 'list', get_template_directory_uri() . '/assets/scripts/list-popup.js', array(), 'null', true );
     
 }
 add_theme_support('post-thumbnails');

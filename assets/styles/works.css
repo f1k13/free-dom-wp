@@ -114,19 +114,17 @@
   flex-shrink: 0;
   border-radius: 12px;
   background: #155ab7;
-
-  border: none;
-  margin-top: 52px;
-}
-.card-button-link {
   color: #fff;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 14px; /* 87.5% */
   letter-spacing: -0.14px;
-  text-decoration: none;
+  border: none;
+  margin-top: 52px;
 }
+
 .card__slider {
   width: 617px;
   position: relative;
@@ -162,7 +160,88 @@
 .slider .next {
   right: 10px;
 }
+.modal__seller-slider {
+  display: none;
+}
 
+.modal__seller-slider.visible {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.modal__content-seller {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 725px;
+  height: 569px;
+  padding: 40px;
+  border-radius: 24px;
+}
+.input-label-seller {
+  color: #2a2a30;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.06px;
+  margin-top: 28px;
+}
+.modal__seller-finish-slider {
+  display: none;
+}
+
+.modal__seller-finish-slider.visible {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.modal__finish-content-seller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 725px;
+  height: 601px;
+  padding: 40px;
+  border-radius: 24px;
+}
+.modal-button-seller {
+  border-radius: 12px;
+  background: #155ab7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.16px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .section {
     padding: 0 20px;
