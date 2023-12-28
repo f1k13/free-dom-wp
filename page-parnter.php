@@ -7,8 +7,8 @@
   <section class="section">
         <div class="container path__wrapper">
             <ul class="path__list">
-                <li class="path__list-item">Главная</li>
-                <li class="path__list-item">Наши работы</li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/">Главная</a></li>
+                <li class="path__list-item">Партнерам</li>
             </ul>
         </div>
     </section>
@@ -53,13 +53,13 @@
                             <div class="modal__personal">
                                 <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на
                                     обработку</p>
-                                <span class="personal-text blue">персональных данных</span>
+                                <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
                             </div>
                         </div>
                     </div>
                     <div class="modal__finish-application">
                         <div class="modal__finish-content-application">
-                            <img class="modal__finish-content-img" src="../images/check-circle.svg" alt="">
+                            <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images/check-circle.svg" alt="">
                             <span class="modal__finish-content-text">Ваша заявка отправлена! <br>
                             Мы свяжемся с вами в ближайшее время</span>
                         </div>
@@ -101,13 +101,13 @@
                             <div class="modal__personal">
                                 <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на
                                     обработку</p>
-                                <span class="personal-text blue">персональных данных</span>
+                                <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
                             </div>
                         </div>
                     </div>
                     <div class="modal__finish-supplier">
                         <div class="modal__finish-content-supplier">
-                            <img class="modal__finish-content-img" src="../images/check-circle.svg" alt="">
+                            <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images/check-circle.svg" alt="">
                             <span class="modal__finish-content-text">Ваша заявка отправлена! <br>
                             Мы свяжемся с вами в ближайшее время</span>
                         </div>

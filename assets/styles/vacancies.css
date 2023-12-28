@@ -160,6 +160,12 @@
   .container {
     padding: 0 20px;
   }
+  .modal__vacancies.visible {
+    padding: 0 20px;
+  }
+  .modal__content-vacancies {
+    width: 100%;
+  }
   .title {
     text-align: center;
     font-size: 23px;
@@ -176,5 +182,13 @@
     padding-top: 35px;
     display: flex;
     gap: 35px;
+  }
+}
+@media (max-width: 410px) {
+  .modal__vacancies.visible {
+    padding: 0 20px;
+  }
+  .modal__content-vacancies {
+    width: 100%;
   }
 }

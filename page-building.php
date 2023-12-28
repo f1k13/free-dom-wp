@@ -7,10 +7,10 @@
   <section class="section">
         <div class="container path__wrapper">
             <ul class="path__list">
-                <li class="path__list-item">Главная</li>
-                <li class="path__list-item">Наши услуги</li>
-                <li class="path__list-item">Обслуживание зданий
-и территорий</li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/">Главная</a></li>
+                <li class="path__list-item-open">Наши услуги</li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/bulding/">Обслуживание зданий
+                и территорий</a></li>
             </ul>
         </div>
     </section>
@@ -68,7 +68,7 @@
             </form>
             <div class="modal__personal">
                 <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на обработку</p>
-                <span class="personal-text blue">персональных данных</span>
+                <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
             </div>
         </div>
     </div>
@@ -145,7 +145,7 @@
                     </form>
                     <div class="modal__personal">
                         <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на обработку</p>
-                        <span class="personal-text blue">персональных данных</span>
+                        <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
                     </div>
                 </div>
             </div>
@@ -171,8 +171,7 @@
             <div class="about__right">
                 <div class="right-cards">
                     <div class="right__card">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images//figure.svg" alt="">
-                        <img class='card-check' src="<?php bloginfo('template_url'); ?>/assets/images//check.svg" alt="">
+                        <img class='card-check' src="<?php bloginfo('template_url'); ?>/assets/images/shield-check.svg" alt="">
                         <p class="card-text">Гарантия на работы до 5 лет</p>
                     </div>
                     <div class="right__card">
@@ -203,7 +202,7 @@
                 <div class="works__card">
                     <h3 class="works__card-title">Заявка</h3>
                     <p class="works__card-subtitle">Вы оставляете заявку на услугу любым способом</p>
-                    <button class="works__card-button"><a href="/">Оставить заявку</a></button>
+                    <button class="works__card-button"><a href="<?php echo get_site_url() ?>/" >Оставить заявку</a></button>
                     <div class="works__cards-circle mb">
                         <span class="circle-text">1</span>
                     </div>
@@ -243,4 +242,4 @@
     </section>
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();?>

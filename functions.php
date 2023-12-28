@@ -12,6 +12,7 @@ function theme_name_scripts() {
     wp_enqueue_style( 'Service', get_template_directory_uri() . '/assets/styles/service.css' );
     
     wp_enqueue_style( 'Contacts', get_template_directory_uri() . '/assets/styles/contacts.css' );
+    wp_enqueue_style( 'Condition', get_template_directory_uri() . '/assets/styles/condition.css' );
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/styles/footer.css' );
     
     wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/scripts/script.js', array(), 'null', true );
@@ -22,6 +23,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'services', get_template_directory_uri() . '/assets/scripts/service.js', array(), 'null', true );
     wp_enqueue_script( 'seller', get_template_directory_uri() . '/assets/scripts/seller.js', array(), 'null', true );
     wp_enqueue_script( 'list', get_template_directory_uri() . '/assets/scripts/list-popup.js', array(), 'null', true );
+    wp_enqueue_script( 'footer', get_template_directory_uri() . '/assets/scripts/footer.js', array(), 'null', true );
     
 }
 add_theme_support('post-thumbnails');

@@ -28,7 +28,7 @@
             <div class="footer__private">
                 <div class="private__text-politic">
                     <p class="private-text">Политика приватности</p>
-                    <p class="private-text">Согласие на обработку персональных данных</p>
+                    <a href="<?php echo get_site_url() ?>/condition/" class="private-text">Согласие на обработку персональных данных</a>
                 </div>
                 <div class="private__social">
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/whatsapp.svg" alt="">
@@ -73,6 +73,36 @@
                     <p class="private-adaptive-logo-text">Фридом</p>
                 </div>
             </div>
+            <div class="modal__footer">
+                        <div class="modal__wrapper-footer">
+                            <h3 class="modal-title">Заказать звонок </h3>
+                            <form class="modal__form" action="">
+                                <div class="form__button-modal">
+                                    <label class="input-label" for="name">Имя / название</label>
+                                    <input class="input" id="name" type="text"
+                                           placeholder="Напишите имя или название организации">
+                                </div>
+                                <div class="form__button-modal">
+                                    <label class="input-label" for="telephone">Телефон</label>
+                                    <input class="input" id="telephone" type="text"
+                                           placeholder="+ 7 999 999 99 99">
+                                </div>
+                                <button type="submit" class="modal-button-footer">Отправить</button>
+                            </form>
+                            <div class="modal__personal">
+                                <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на
+                                    обработку</p>
+                                <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__finish-footer">
+                        <div class="modal__finish-content-footer">
+                            <img class="modal__finish-content-img" src="<?php bloginfo('template_url'); ?>/assets/images/check-circle.svg" alt="">
+                            <span class="modal__finish-content-text">Ваша заявка отправлена! <br>
+                            Мы свяжемся с вами в ближайшее время</span>
+                        </div>
+                    </div>
         </div>
     </section>
 </footer>

@@ -24,7 +24,7 @@
 .path__wrapper {
   width: 100%;
   border-bottom: 1px solid #ecf0f8;
-  padding-bottom: 27px;
+  padding-bottom: 13px;
   margin-top: 69px;
 }
 
@@ -32,7 +32,8 @@
   display: flex;
   gap: 20px;
 }
-.path__list-item {
+
+.path__list-item a {
   color: #8c94a8;
   list-style-type: none;
   font-size: 10.688px;
@@ -44,6 +45,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 .header__nav {
   display: flex;
@@ -266,6 +269,13 @@
 .list-item-link-nav {
   text-decoration: none;
   cursor: pointer;
+  color: #282d3c;
+
+  font-size: 13.016px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 107.563% */
+  letter-spacing: -0.14px;
 }
 
 .burger__menu {
@@ -496,6 +506,7 @@
 
 .personal-text {
   color: #8c94a8;
+  text-decoration: none;
   text-align: center;
   font-size: 10.875px;
   font-style: normal;

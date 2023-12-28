@@ -8,8 +8,8 @@
     <section class="section">
         <div class="container path__wrapper">
             <ul class="path__list">
-                <li class="path__list-item">Главная</li>
-                <li class="path__list-item">Наши работы</li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/">Главная</a></li>
+                <li class="path__list-item">Вакансии</li>
             </ul>
             <h2 class="title">Вакансии</h2>
         </div>
@@ -105,7 +105,7 @@
                     </form>
                     <div class="modal__personal">
                         <p class="personal-text">Нажимая кнопку «Отправить», вы подтверждаете свое согласие на обработку</p>
-                        <span class="personal-text blue">персональных данных</span>
+                        <a href="<?php echo get_site_url() ?>/condition/" class="personal-text blue">персональных данных</a>
                     </div>
                 </div>
             </div>

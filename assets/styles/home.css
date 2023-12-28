@@ -83,6 +83,8 @@
 
 .service-card-img {
   width: 250px;
+  position: absolute;
+  top: 100px;
 }
 
 .service-card-img.img-3 {
@@ -95,8 +97,8 @@
 .service-card-img.img-4 {
   width: 300px;
   position: absolute;
-  top: 30px;
-  left: 20px;
+  top: 35px;
+  left: 15px;
 }
 
 .service__card.card-7 {
@@ -109,7 +111,7 @@
   width: 350px;
   position: absolute;
   top: 20px;
-  left: -20px;
+  left: -13px;
 }
 
 .service-card-img.img-6 {
@@ -122,6 +124,7 @@
   width: 350px;
   position: absolute;
   left: 320px;
+  top: 40px;
 }
 
 /*---------------- about ------------------*/
@@ -170,13 +173,6 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  position: relative;
-}
-
-.card-check {
-  position: absolute;
-  top: 50px;
-  left: 55px;
 }
 
 .card-text {
@@ -327,7 +323,7 @@
   letter-spacing: -0.48px;
 }
 .header__content-wrapper {
-  margin-top: 43px;
+  margin-top: 20px;
   background: #f4f6fb;
   display: flex;
   justify-content: space-between;
@@ -345,6 +341,12 @@
     justify-content: center;
     width: 100%;
     padding: 0 30px;
+  }
+  .modal.visible {
+    padding: 0 20px;
+  }
+  .modal__content {
+    width: 100%;
   }
   .header__content-wrapper {
     margin-top: 17px;
@@ -375,7 +377,8 @@
   .service-card-img {
     width: 220px;
     position: absolute;
-    left: 67%;
+    left: 68%;
+    top: 15px;
   }
 
   .service__card.card-7 {
@@ -384,9 +387,9 @@
   }
 
   .service-card-img.img-4 {
-    width: 220px;
+    width: 200px;
     position: absolute;
-    top: -10px;
+    top: 10px;
     left: 74%;
   }
 
@@ -413,8 +416,8 @@
 
   .service-card-img.img-3 {
     position: absolute;
-    top: -10px;
-    width: 120px;
+    top: 0;
+    width: 110px;
     left: 80%;
   }
 
@@ -453,7 +456,6 @@
   }
   .works__card {
     width: 234px;
-    padding: 25px;
   }
 }
 
@@ -469,13 +471,13 @@
     padding-bottom: 35px;
   }
 
-  .service__card-price {
+  .works__cards-circle {
+    margin-top: 50px;
   }
-
   .service-card-img {
-    width: 70px;
+    width: 90px;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 63%;
   }
 
@@ -489,10 +491,10 @@
   }
 
   .service-card-img.img-4 {
-    width: 100px;
+    width: 120px;
     position: absolute;
-    top: 43%;
-    left: 45%;
+    top: 40%;
+    left: 35%;
   }
   .service-card-img.img-3 {
     width: 80px;
@@ -504,7 +506,7 @@
     width: 120px;
     position: absolute;
     top: 43%;
-    left: 42%;
+    left: 40%;
   }
   .service__card-title {
     width: 169px;
@@ -513,11 +515,12 @@
   .service-card-img.img-6 {
     width: 100px;
     position: absolute;
-    top: 35%;
-    left: 43%;
+    top: 30%;
+    left: 40%;
   }
   .service-card-img.img-7 {
     left: 43%;
+    width: 200px;
   }
   .about__wrapper {
     width: 100%;
@@ -551,10 +554,10 @@
   .button-sales {
     width: 100%;
   }
-  .card-check {
-    position: absolute;
-    left: 70px;
-    top: 30px;
+  .card-text {
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
   }
 }
 
@@ -581,6 +584,7 @@
     flex-direction: column;
     align-items: center;
     height: 165px;
+    width: 100%;
   }
   .services__wrapper {
     width: 100%;
@@ -593,9 +597,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .card-check {
-    position: absolute;
-    left: 65px;
-    top: 30px;
+
+  .card-text {
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
   }
 }

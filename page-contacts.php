@@ -8,8 +8,8 @@
   <section class="section">
         <div class="container path__wrapper">
             <ul class="path__list">
-                <li class="path__list-item">Главная</li>
-                <li class="path__list-item">Контакты</li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/">Главная</a></li>
+                <li class="path__list-item"><a href="<?php echo get_site_url() ?>/contacts/">Контакты</a></li>
             </ul>
         </div>
     </section>

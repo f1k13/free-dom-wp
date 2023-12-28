@@ -32,7 +32,7 @@
                                 <li class="sublist-item"><a href="<?php echo get_site_url() ?>/fasade/">Фасадные работы</a></li>
                                 <li class="sublist-item"><a href="<?php echo get_site_url() ?>/finishing/">Отделка и ремонт помещений</a></li>
                                 <li class="sublist-item"><a href="<?php echo get_site_url() ?>/dismantling/">Демонтаж</a></li>
-                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/netwotks/">Инжереные сети</a></li>
+                                <li class="sublist-item"><a href="<?php echo get_site_url() ?>/networks/">Инжереные сети</a></li>
                                 <li class="sublist-item"><a href="<?php echo get_site_url() ?>/rise/">Высотные работы</a></li>
                                 <li class="sublist-item"><a href="<?php echo get_site_url() ?>/bulding/">Обслуживание зданий и территорий</a></li>
                             </ul>
